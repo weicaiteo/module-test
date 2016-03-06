@@ -3,6 +3,7 @@
 
 h1{
   text-align:center;
+  border: 2px solid black;
 }
 h2 {
   border:2px solid #000000;
@@ -32,9 +33,7 @@ p{
 }
 
 #chicken{
-  position:relative;
-  left:374px;
-  width:100px;
+  
   text-align:center;
   background:#FF00CC;
 }
@@ -42,17 +41,13 @@ p{
   
 
 #beef{
-  position:relative;
-  left:374px;
-  width:100px;
+  
   text-align:center;
   color:#FFFFFF;
   background:#FF0000;
 }
 #sushi{
-  position:relative;
-  left:374px;
-  width:100px;
+  
   text-align:center;
   background:#FFFF00;
 }
