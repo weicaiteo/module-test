@@ -32,6 +32,7 @@ p{
 }
 
 #chicken{
+  width: 100%;
   border: 2px solid #000000;
   text-align:right;
   background:#FF00CC;
@@ -42,6 +43,7 @@ p{
   
 
 #beef{
+  width:100%;
   border: 2px solid #000000;
   text-align:right;
   color:#FFFFFF;
@@ -49,6 +51,7 @@ p{
   display: inline-block;
 }
 #sushi{
+  width:100%;
   border: 2px solid #000000;
   text-align:right;
   background:#FFFF00;
