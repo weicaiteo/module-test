@@ -1,0 +1,88 @@
+
+h1 {
+  text-align:center;
+}
+.row {
+  float:left;
+  position:clear;
+}
+.container-fluid{
+
+
+}
+
+.content {
+  width:30%;
+  display:inline-block;
+  border: 2px solid black;
+  margin:10px;
+  float:left;
+  top: 50px;
+  margin-bottom: 15px;
+  float:left;
+  background-color: #B3B3B3;
+}
+#chicken, #beef, #sushi{
+  background-color: #FF00FF;
+  color:#000000;
+  display: inline-block;
+  width:100px;
+  float:right;
+  padding:5px;
+  margin:auto;
+  text-align:center;
+  
+}
+p {
+  padding: 3px;
+  margin:auto;
+  display:inline-block;
+  width: 100%;
+  color: #0000FF;
+  
+
+      
+}
+
+h2  {
+  border:2px solid black;
+  margin-bottom: 15px;
+
+  
+}
+
+#beef {
+  background-color: #FF0000;
+  color:#FFFFFF;
+  position:relative;
+  clear:right;
+}
+#sushi {
+  background-color: #FFFF00;
+  color:#000000;
+  position: relative;
+  top: 0;
+  left: 0;
+  
+
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { 
+
+background-color: #FF0000;
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { 
+background-color: #0000FF; 
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { 
+background-color: #FFFF00;
+
+ }
