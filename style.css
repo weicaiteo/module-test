@@ -1,27 +1,49 @@
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 h1 {
   text-align:center;
-}
-.row {
-  float:left;
-  position:clear;
-}
-.container-fluid{
-
-
+  bottom-margin:15px;
 }
 
-.content {
-  width:30%;
+.content1 {
+ width:30%;
   display:inline-block;
-  border: 2px solid black;
-  margin:10px;
-  float:left;
+  border: 5px solid black;
+  margin:15px;
   top: 50px;
   margin-bottom: 15px;
   float:left;
   background-color: #B3B3B3;
+  overflow:auto;
 }
+.content2 {
+  width:30%;
+  display:inline-block;
+  border: 5px solid black;
+  margin:15px;
+  top: 50px;
+  margin-bottom: 15px;
+  float:left;
+  background-color: #B3B3B3;
+  overflow:auto;
+}
+.content3 {
+  width:30%;
+  display:inline-block;
+  border: 5px solid black;
+  padding:10px;
+  top: 50px;
+  float:left;
+  background-color: #B3B3B3;
+  overflow:auto;
+  margin:15px;
+  margin-bottom: 15px;
+}
+
 #chicken, #beef, #sushi{
   background-color: #FF00FF;
   color:#000000;
@@ -31,22 +53,19 @@ h1 {
   padding:5px;
   margin:auto;
   text-align:center;
-  
+  border:5px solid black;
 }
+
 p {
-  padding: 3px;
+  padding: 5px;
   margin:auto;
   display:inline-block;
   width: 100%;
   color: #0000FF;
-  
-
-      
+        
 }
-
 h2  {
-  border:2px solid black;
-  margin-bottom: 15px;
+   margin-bottom: 15px;
 
   
 }
@@ -54,35 +73,80 @@ h2  {
 #beef {
   background-color: #FF0000;
   color:#FFFFFF;
-  position:relative;
-  clear:right;
+  
+  
 }
 #sushi {
   background-color: #FFFF00;
   color:#000000;
-  position: relative;
-  top: 0;
-  left: 0;
-  
-
-}
+  position:relative;
+  top: -10px;
+  left:10px;
+    
+    }
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { 
-
-background-color: #FF0000;
- }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { 
-background-color: #0000FF; 
+@media (min-width: 320px) and (max-width: 767px){
+.content1 {
+    width: 95%;
+    float:left;}
+.content2 {
+    width: 95%;
+}
+.content3 {
+    width: 95%;
+    
 
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { 
-background-color: #FFFF00;
+}
 
- }
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+.content1 {
+    width: 45%;
+  float:left;}
+     
+.content2 {
+    width: 45%;
+    float:left;}
+       
+.content3 {
+    width: 94%;}
+    clear:both;
+    
+    
+}
+}
+@media (min-width: 992px) and (max-width: 1119px){
+.content1 {
+    width: 30%;
+    float:left;}
+.content2 {
+    width: 30%;
+    float:left;}
+.content3 {
+    width: 30%;
+    float:left;
+    
+
+}
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ .content1 {
+    width: 30%;
+    float:left;}
+.content2 {
+    width: 30%;
+    float:left;}
+.content3 {
+    width: 30%;
+    float:left;
+    
+
+}
+}
